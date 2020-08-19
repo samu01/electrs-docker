@@ -14,7 +14,7 @@ WORKDIR /home/user
 
 RUN git clone https://github.com/romanz/electrs
 
-RUN cargo install --path .
+RUN cargo install --path ./electrs
 
 # Electrum RPC
 EXPOSE 50001
