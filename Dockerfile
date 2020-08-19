@@ -24,3 +24,6 @@ EXPOSE 50001
 EXPOSE 4224
 
 STOPSIGNAL SIGINT
+
+#electrs -vvvv --timestamp --db-dir /home/user/db
+CMD ["electrs", "-vvvv", "--timestamp", "--db-dir /home/user/db"]
