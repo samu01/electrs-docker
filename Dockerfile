@@ -26,4 +26,4 @@ EXPOSE 4224
 STOPSIGNAL SIGINT
 
 #electrs -vvvv --timestamp --db-dir /home/user/db
-CMD ["electrs", "-vvvv", "--timestamp"]
+CMD ["electrs", "--log-filters", "INFO", "--timestamp"]
